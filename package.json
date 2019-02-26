@@ -2,7 +2,8 @@
   "name": "brain-games-antlu",
   "version": "0.3.0",
   "bin": {
-    "brain-games": "dist/bin/brain-games.js"
+    "brain-games": "dist/bin/brain-games.js",
+    "brain-even": "dist/bin/brain-even.js"
   },
   "files": [
     "dist"

@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import start from '..';
+import { sayHello } from '..';
 
-start();
+sayHello();
