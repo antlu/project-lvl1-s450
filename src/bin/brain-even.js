@@ -1,5 +1,6 @@
 #!/usr/bin/env node
-import { printProjectName, parityCheck } from '..';
+import { printProjectName } from '..';
+import parityCheck from '../games/parity';
 
 printProjectName();
 parityCheck();

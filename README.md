@@ -9,4 +9,4 @@
 
 ## Calculator
 
-
+[![asciicast](https://asciinema.org/a/ZtUh1bynY3kQmARXHDcN3wrQR.svg)](https://asciinema.org/a/ZtUh1bynY3kQmARXHDcN3wrQR)

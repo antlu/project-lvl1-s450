@@ -1,5 +1,6 @@
 #!/usr/bin/env node
-import { printProjectName, calc } from '..';
+import { printProjectName } from '..';
+import calc from '../games/calc';
 
 printProjectName();
 calc();
