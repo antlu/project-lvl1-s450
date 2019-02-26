@@ -1,4 +1,5 @@
 #!/usr/bin/env node
-import { evenNumber } from '..';
+import { printProjectName, parityCheck } from '..';
 
-evenNumber();
+printProjectName();
+parityCheck();
