@@ -1,7 +1,7 @@
 import { getRandomNumber } from '../utils';
 import launchGame from '..';
 
-const goal = 'What is the result of the expression?\n';
+const goal = 'What is the result of the expression?';
 const operations = ['+', '-', '*'];
 const getQuestionAndAnswer = () => {
   const numberOne = getRandomNumber();

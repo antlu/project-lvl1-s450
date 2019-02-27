@@ -5,7 +5,7 @@ const answersToWin = 3;
 // Game launcher
 const launchGame = (goal, getQuestionAndAnswer) => {
   console.log('Welcome to Brain Games!');
-  console.log(goal);
+  console.log(`${goal}\n`);
 
   const name = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${name}!`);

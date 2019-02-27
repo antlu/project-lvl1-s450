@@ -6,7 +6,7 @@ const gcd = (a, b) => {
   return gcd(b, a % b);
 };
 
-const goal = 'Find the greatest common divisor of given numbers.\n';
+const goal = 'Find the greatest common divisor of given numbers.';
 const getQuestionAndAnswer = () => {
   const numberOne = getRandomNumber(0, 100);
   const numberTwo = getRandomNumber(-10, 10);
