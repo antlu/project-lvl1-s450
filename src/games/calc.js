@@ -1,4 +1,4 @@
-import { getRandomNumber } from '../utils';
+import getRandomNumber from '../utils';
 import launchGame from '..';
 
 const goal = 'What is the result of the expression?';

@@ -1,4 +1,4 @@
-import { getRandomNumber } from '../utils';
+import getRandomNumber from '../utils';
 import launchGame from '..';
 
 const getSequenceOfNumbers = (start, n, step) => {
