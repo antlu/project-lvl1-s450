@@ -10,3 +10,7 @@
 ## Calculator
 
 [![asciicast](https://asciinema.org/a/ZtUh1bynY3kQmARXHDcN3wrQR.svg)](https://asciinema.org/a/ZtUh1bynY3kQmARXHDcN3wrQR)
+
+## Greatest common divisor
+
+[![asciicast](https://asciinema.org/a/u4QQ4vGfjpVPubKelQIri51YY.svg)](https://asciinema.org/a/u4QQ4vGfjpVPubKelQIri51YY)
