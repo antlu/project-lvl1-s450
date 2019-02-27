@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-import { printProjectName, sayHello } from '..';
+import { sayHello } from '../utils';
 
-printProjectName();
 sayHello();

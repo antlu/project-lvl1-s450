@@ -1,19 +1,14 @@
-import { getRandomNumber, launchGame } from '..';
+import { getRandomNumber } from '../utils';
+import launchGame from '..';
 
 const goal = 'What is the result of the expression?\n';
 const operations = ['+', '-', '*'];
-const getQuestion = () => {
+const getQuestionAndAnswer = () => {
   const numberOne = getRandomNumber();
   const numberTwo = getRandomNumber();
-  const i = getRandomNumber(operations.length - 1);
+  const i = getRandomNumber(0, operations.length - 1);
   const operation = operations[i];
-  return `${numberOne} ${operation} ${numberTwo}`;
-};
-const getAnswer = (question) => {
-  const parsedQuestion = question.split(' ');
-  const numberOne = Number(parsedQuestion[0]);
-  const operation = parsedQuestion[1];
-  const numberTwo = Number(parsedQuestion[2]);
+  const question = `${numberOne} ${operation} ${numberTwo}`;
   let answer;
   switch (operation) {
     case '+':
@@ -31,6 +26,7 @@ const getAnswer = (question) => {
     default:
       break;
   }
-  return String(answer);
+  return [question, String(answer)];
 };
-export default () => launchGame(goal, getQuestion, getAnswer);
+
+export default () => launchGame(goal, getQuestionAndAnswer);
