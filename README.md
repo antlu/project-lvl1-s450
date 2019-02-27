@@ -7,7 +7,7 @@
 
 [![asciicast](https://asciinema.org/a/2qlboK5OKbSgFxrtRMZSPg4h5.svg)](https://asciinema.org/a/2qlboK5OKbSgFxrtRMZSPg4h5)
 
-## Calculator
+## Calculations
 
 [![asciicast](https://asciinema.org/a/ZtUh1bynY3kQmARXHDcN3wrQR.svg)](https://asciinema.org/a/ZtUh1bynY3kQmARXHDcN3wrQR)
 
@@ -18,3 +18,7 @@
 ## Arithmetic progression
 
 [![asciicast](https://asciinema.org/a/Wn0U3kShdmdIgrEIEWcKlhk7X.svg)](https://asciinema.org/a/Wn0U3kShdmdIgrEIEWcKlhk7X)
+
+## Prime number
+
+[![asciicast](https://asciinema.org/a/MAKDJLCGtaRdfyP3ObPcacvTS.svg)](https://asciinema.org/a/MAKDJLCGtaRdfyP3ObPcacvTS)
